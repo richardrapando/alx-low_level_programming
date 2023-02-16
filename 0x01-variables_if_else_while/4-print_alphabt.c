@@ -1,16 +1,26 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
  * main - Entry point
- * except q and e
+ * q and e are ommitted
  * Return: 0 on success
  */
-int main(void){
-	char letter='a';
-	while(letter<='z'){
-		if(letter !='q' && letter !='e'){
-			putchar("%c\n", letter);
+
+int main(void)
+{
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+		if ((letter != 'e') && (letter != 'q'))
+		{
+			putchar(letter);
 			letter++;
 		}
+
 	}
+
+	putchar('\n');
+
 	return (0);
 }

@@ -1,13 +1,29 @@
-#include<stdio.h>
-/**main - Entry point
- * single digit with commas
- * Return:0 on success
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *possible comibations
+ * Return: 0 on success
+ *
  */
-int main(void){
-	int a=0;
-	while(a<=9){
-		putchar("%d, ", a);
+
+int main(void)
+{
+	int a = '0';
+
+	while (a <= '9')
+	{
+		putchar(a);
+
+		if (a != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+
 		a++;
 	}
+	putchar('\n');
+
 	return (0);
 }

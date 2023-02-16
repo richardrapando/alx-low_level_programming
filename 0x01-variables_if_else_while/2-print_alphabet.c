@@ -1,9 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
  * main - Entry point
- * lowercase
- * Return:0 on success
+ *lowercase
+ * Return: 0 on success
  */
+
 int main(void)
 {
 	char letter = 'a';
@@ -12,8 +14,8 @@ int main(void)
 	{
 		putchar(letter);
 		letter++;
-	}
 
+	}
 	putchar('\n');
 
 	return (0);
