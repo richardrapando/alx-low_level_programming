@@ -1,6 +1,8 @@
 #include<stdio.h>
 /**
  * puzzle
+ * main-start
+ * return-stop
 */
 int main(void)
 {
