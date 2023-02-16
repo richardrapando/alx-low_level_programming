@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * puzzle
- * main-start
- * return-stop
+ * main - Entry point
+ *multilingual puzzle
+ * Return: 0 on success
 */
 int main(void)
 {
