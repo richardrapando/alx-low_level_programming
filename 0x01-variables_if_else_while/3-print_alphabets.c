@@ -9,18 +9,20 @@ int main(void){
 
 	while (letter <= 'z')
 	{
+
 		putchar(letter);
 		letter++;
 	}
-        
-	putchar('\n');
-
+      
 	letter = 'A';
 
 	for (letter = 'A'; letter <= 'Z'; letter++)
 	{
+
 		putchar(letter);
 	}
+
+	putchar('\n');
 
 	return (0);
 }
