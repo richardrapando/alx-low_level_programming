@@ -19,7 +19,7 @@ int main(void)
 		}
 		else
 		{
-			letter++
+			letter++;
 		}
 		
 
