@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *numbers in lowercase
+ *Base 16 numbers
  * Return: 0 on success
  */
 
@@ -14,11 +14,14 @@ int main(void)
 	{
 		putchar(z);
 	}
+
 	for (z = 'a'; z <= 'f'; z++)
 	{
 		putchar(z);
-	}	
+	}
+
 	putchar('\n');
 
 	return (0);
-} 
+
+}
