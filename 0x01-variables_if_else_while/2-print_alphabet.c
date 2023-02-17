@@ -4,17 +4,16 @@
  * lowercase
  * Return:0 on success
  */
-int main(void)
+int main(voi)
 {
-	char letter;
-
-	letter = 'a';
+	char letter = 'a';
 
 	while (letter <= 'z')
 	{
 		putchar(letter);
 		letter++;
 	}
+
 	putchar('\n');
 
 	return (0);
