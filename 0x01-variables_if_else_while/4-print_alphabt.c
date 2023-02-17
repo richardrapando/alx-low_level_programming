@@ -17,6 +17,11 @@ int main(void)
 			putchar(letter);
 			letter++;
 		}
+		else
+		{
+			letter++
+		}
+		
 
 	}
 
