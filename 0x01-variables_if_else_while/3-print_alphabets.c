@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - Entry point
- * lower/upper case
+ * lowerUpper case
  * Return: 0 on success
  */
 int main(void){
