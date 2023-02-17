@@ -4,7 +4,7 @@
  * lowercase
  * Return:0 on success
  */
-int main(voi)
+int main(void)
 {
 	char letter = 'a';
 
