@@ -15,10 +15,9 @@ int main(void){
 
 	letter = 'A';
 
-	while( letter <= 'A')
+	for (letter = 'A'; letter <= 'Z'; letter++)
 	{
 		putchar(letter);
-		letter++;
 	}
 
 	putchar('\n');
