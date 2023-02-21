@@ -4,6 +4,7 @@
  * zero to 98
  * Return: 0 on success
  */
+
 void print_to_98(int a)
 {
 	while(a < 98)
