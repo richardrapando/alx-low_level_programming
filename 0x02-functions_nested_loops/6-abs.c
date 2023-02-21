@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- *_abs - function to find the absolute value of a number
- *Description - finding absolute value
- * Return: number a
+ * _abs - Entry point
+ * @n: n is an integer
+ * Description: prints the absolute value of an integer
+ * Return: int
  */
 
-int _abs(int a)
+int _abs(int n)
 {
-	if (a > 0)
+	if (n > 0)
 	{
-		return (a);
+		return (n);
+	}
 }

@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _islower - a function checking  a letter is in lowercase
+ * _islower - function to check if a letter is in lowercase
  * ASCII numbers equivalent
- * ranges from 97 to 122
+ * @c: character value
  * Return: 0 or 1
  *
  */

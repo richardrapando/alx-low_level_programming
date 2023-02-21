@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * print_alphabet_x10 
+ * print_alphabet_x10 - entry level
  *
- * Return: Always 0 on success
+ * Return: Always 0
  */
 
 

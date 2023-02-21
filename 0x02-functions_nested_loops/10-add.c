@@ -2,9 +2,9 @@
 
 /**
  * add - adds two integers
- * m: integer 1
- * n: integer 2
- * Description: given two integers
+ * @m: integer 1
+ * @n: integer 2
+ * Description: give two integers, returns sum
  * Return: sum
  */
 

@@ -2,15 +2,16 @@
 
 /**
  * _isalpha - Entry point
- * Description: checks if a letter is in upper and lower case
- * Return: 1 if letter is upper/lower. 0 if letter is not upper/lower
+ * @c: checking character
+ * Description: checks if it is an  alphabet
+ * Return: 1 if true. 0 if false
  */
 
 int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
-        	return (1);
+	return (1);
 	}
 	else if (c >= 'A' && c <= 'Z')
 	{

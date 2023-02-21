@@ -1,11 +1,12 @@
 #include "main.h"
-
+      
 /**
- * print_alphabet - Entry point
- * Description: a function that prints the alphabet,
- * in lowecase followed by a new line
+ * print_alphabet - entry point
+ *
  * Return: void
+ *
  */
+
 void print_alphabet(void)
 {
 	char letter = 'a';
@@ -16,4 +17,5 @@ void print_alphabet(void)
 		letter++;
 	}
 	_putchar('\n');
+
 }
