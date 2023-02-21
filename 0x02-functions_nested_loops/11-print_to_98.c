@@ -1,16 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
 #include "main.h"
-/**main - Entry point
- * zero to 98
- * Return: 0 on success
- */
 
-void print_to_98(int a)
+/**
+ * print_to_98 - printing numbers from to 98
+ * 
+ *
+ * Description: printing numbers from n to 98
+ *
+ * Return: void
+ */
+void print_to_98(int n)
 {
-	while(a < 98)
+	if (n < 98)
 	{
-		printf("%d, ", a);
-		a++;
+		while (n < 98)
+		{
+			printf("%d, ", n);
+			n++;
+		}
 	}
 	printf("\n");
 }

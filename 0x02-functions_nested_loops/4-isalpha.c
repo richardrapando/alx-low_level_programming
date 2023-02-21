@@ -1,17 +1,23 @@
 #include "main.h"
-/**main - Entry point
- * from ASCII lower=97-122
- * upper=65-90
- * Return:0 on success
+
+/**
+ * _isalpha - Entry point
+ * Description: checks if a letter is in upper and lower case
+ * Return: 1 if letter is upper/lower. 0 if letter is not upper/lower
  */
+
 int _isalpha(int c)
 {
-	if((c >= 65 && c <= 90) || (c >= 97 && c<= 122))
+	if (c >= 'a' && c <= 'z')
 	{
-		return (1)
+        	return (1);
+	}
+	else if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
 	}
 	else
 	{
-		return (0)
+		return (0);
 	}
 }
