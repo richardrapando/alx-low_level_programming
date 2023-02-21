@@ -1,8 +1,10 @@
 #include "main.h"
 /**
  * main - Entry point
- * summation
- * Return: 0 on success
+ *add
+ *integer m
+ *integer n
+ * Return:sum
  */
 int add(int m, int n)
 {
