@@ -1,13 +1,19 @@
 #include "main.h"
+
 /**
- * main - Entry point
- *add
- *integer m
- *integer n
- * Return:sum
+ * add - adds two integers
+ * m: integer 1
+ * n: integer 2
+ * Description: given two integers
+ * Return: sum
  */
+
 int add(int m, int n)
 {
-	int addition = m + n;
-	return (addition);
+	int sum;
+
+	sum = m + n;
+
+	return (sum);
 }
+
