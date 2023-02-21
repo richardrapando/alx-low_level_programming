@@ -4,7 +4,7 @@
  * print lowercase
  * Return: 0 on success
  */
-void print_alphabe(void)
+void print_alphabet(void)
 {
 	char letter='a';
 	while (letter <= 'z')
