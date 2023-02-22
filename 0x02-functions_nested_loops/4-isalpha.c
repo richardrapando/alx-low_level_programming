@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _isalpha - Entry point
- * @c: checking character
- * Description: checks if it is an  alphabet
- * Return: 1 if true. 0 if false
+ * _isalpha - function to check for an alphabet is lower/upper case
+ * @c: what is being checked
+ * Description: checking the alphabet
+ * Return: 1 or 0
  */
 
 int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
-	return (1);
+	        return (1);
 	}
 	else if (c >= 'A' && c <= 'Z')
 	{

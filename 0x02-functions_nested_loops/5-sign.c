@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_sign - print if the value of the number is + or -
- * @n: number to be checked
- *
+ * print_sign - function that prints out the sign of a number as either + or -
+ * @n: number 
+ * Description: printing the sign of a number
  * Return: 1 or 0 or -1
  *
  */

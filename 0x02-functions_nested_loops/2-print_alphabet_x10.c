@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - entry level
+ * print_alphabet_x10 - x10 times alphabet
  *
- * Return: Always 0
+ * Return: void
  */
 
 

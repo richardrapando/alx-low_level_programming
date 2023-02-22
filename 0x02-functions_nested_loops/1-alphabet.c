@@ -1,12 +1,10 @@
 #include "main.h"
-      
-/**
- * print_alphabet - entry point
- *
- * Return: void
- *
- */
 
+/**
+ * print_alphabet - Entry point
+ * Description: function to the alphabet in lowercase
+ * Return: void
+ */
 void print_alphabet(void)
 {
 	char letter = 'a';
@@ -17,5 +15,4 @@ void print_alphabet(void)
 		letter++;
 	}
 	_putchar('\n');
-
 }

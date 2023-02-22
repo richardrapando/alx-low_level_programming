@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * add - adds two integers
- * @m: integer 1
- * @n: integer 2
- * Description: give two integers, returns sum
+ * add - function to add two integers
+ * @y: first int
+ * @z: second int
+ * Description: add two integers
  * Return: sum
+ *
  */
 
-int add(int m, int n)
+int add(int y, int z)
 {
-	int sum;
+	int m;
 
-	sum = m + n;
-
-	return (sum);
+	m = y + z;
+	return (m);
 }

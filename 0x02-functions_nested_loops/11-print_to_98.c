@@ -1,10 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 
-/**
+/**i
  * print_to_98 - function to print numbers from n to 98
  *
- * @n: maximum or minimum number starts
+ * @n: maximum value\minimum value for which the function starts
+ *
+ * Description:printing from n to 98
  *
  * Return: void
  *
