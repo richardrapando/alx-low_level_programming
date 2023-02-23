@@ -9,17 +9,19 @@
 
 void print_square(int size)
 {
-	int a = 0;
-	int b = 0;
+	int a = 0, z;
 
-	if (size <= 0)
-		_putchar('\n');
-
-	while (a < size)
+	while (a < n && n > 0)
 	{
-		for (b = 0; b < size; b++)
+		z = 0;
+		while (z < n)
+		{
 			_putchar('#');
-
-		a++;
+			z++;
+		}
 		_putchar('\n');
+		a++;
 	}
+	if (a == 0)
+		_putchar('\n');
+}

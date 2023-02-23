@@ -11,30 +11,33 @@
 
 int main(void)
 {
-	int a;
+	int z = 1;
 
-	for (a = 1; a <= 100; a++)
+	while (z <= 100)
 	{
-
-		if ((a % 3) == 0 && (a % 5) != 0)
-
-			printf("Fizz");
-
-		else if ((a % 3) != 0 && (a % 5) == 0)
-
-			printf("Buzz");
-
-		else if ((a % 3) == 0 && (a % 5) == 0)
-
+		if (z % 3 == 0 && z % 5 == 0)
+		{
 			printf("FizzBuzz");
-
+		}
+		else if (z % 3 == 0)
+		{
+			printf("Fizz");
+		}
+		else if (z % 5 == 0)
+		{
+			printf("Buzz");
+		}
 		else
-			printf("%d", a);
+		{
+			printf("%d", z);
+		}
+		if (z != 100)
+		{
+			putchar(' ');
+		}
 
-		if (a < 100)
-			printf(" ");
+		z++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
-
 }
