@@ -25,11 +25,7 @@ void print_triangle(int size)
 			_putchar('#');
 			z++;
 		}
-
 		_putchar('\n');
 		a++;
 	}
-	if (a == 1)
-		_putchar('\n');
 }
-

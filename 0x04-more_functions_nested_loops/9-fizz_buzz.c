@@ -17,27 +17,22 @@ int main(void)
 	{
 		if (z % 3 == 0 && z % 5 == 0)
 		{
-			printf("FizzBuzz");
+			_putchar("FizzBuzz");
 		}
 		else if (z % 3 == 0)
 		{
-			printf("Fizz");
+			_putchar("Fizz");
 		}
 		else if (z % 5 == 0)
 		{
-			printf("Buzz");
+			_putchar("Buzz");
 		}
 		else
 		{
-			printf("%d", z);
+			_putchar( z);
 		}
-		if (z != 100)
-		{
-			putchar(' ');
-		}
-
 		z++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
