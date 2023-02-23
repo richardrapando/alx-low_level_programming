@@ -17,22 +17,21 @@ int main(void)
 	{
 		if (z % 3 == 0 && z % 5 == 0)
 		{
-			_putchar("FizzBuzz");
+			_putchar("FizzBuzz ");
 		}
 		else if (z % 3 == 0)
 		{
-			_putchar("Fizz");
+			_putchar("Fizz ");
 		}
 		else if (z % 5 == 0)
 		{
-			_putchar("Buzz");
+			_putchar("Buzz ");
 		}
 		else
 		{
-			_putchar( z);
+			_putchar(z+" ");
 		}
 		z++;
 	}
-	_putchar('\n');
 	return (0);
 }
