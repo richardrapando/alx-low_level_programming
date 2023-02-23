@@ -11,30 +11,33 @@
 
 int main(void)
 {
-	int m;
+	int m = 1;
 
-	for (m = 1; m <= 100; m++)
+	while (m <= 100)
 	{
-
-		if ((m % 3 == 0)
-
-			printf("Fizz");
-
-		else if (m % 5 == 0)
-
-			printf("Buzz");
-
-		else if (m % 3 == 0 && m % 5 == 0)
-
+		if (m % 3 == 0 && m % 5 == 0)
+		{
 			printf("FizzBuzz");
-
+		}
+		else if (m % 3 == 0)
+		{
+			printf("Fizz");
+		}
+		else if (m % 5 == 0)
+		{
+			printf("Buzz");
+		}
 		else
-			printf("%d", i);
+		{
+			printf("%i", m);
+		}
+		if (m != 100)
+		{
+			putchar(' ');
+		}
 
-		if (i < 100)
-			printf(" ");
+		i++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
-
 }

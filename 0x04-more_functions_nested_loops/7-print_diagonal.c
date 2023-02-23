@@ -8,13 +8,21 @@
  * Return: \
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
-	int m;
+	int a, b;
 
-	for (m = 0; m < n; m++)
+	if (n <= 0)
+		_putchar('\n');
 
-		_putchar('\');
+	for (a = 0; a < n; i++)
+	{
+		for (b = 0; b < i; b++)
+		{
+			_putchar(' ');
 
-	_putchar('\n');
+		}
+		_putchar('\\');
+		_putchar('\n');
+	}
 }
