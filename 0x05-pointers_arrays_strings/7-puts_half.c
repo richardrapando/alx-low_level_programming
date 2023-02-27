@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * puts_half - function that prints half of the string
  *
- * Return: Always 0.
+ * @str: second half of string
+ *
+ * Return: nothing
  */
 
 void puts_half(char *str)

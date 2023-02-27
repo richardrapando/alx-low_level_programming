@@ -2,9 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * rev_string - function that reverses a string
  *
- * Return: Always 0.
+ * @s: string that is to be reversed
+ *
+ * Return: nothing
  */
 
 void rev_string(char *s)

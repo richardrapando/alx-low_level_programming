@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * puts2 - function that prints every other character of a string
  *
- * Return: Always 0.
+ * @str: string whose characters are to be printed
  *
+ * Return: nothing
+ */
 
 void puts2(char *str)
 {
