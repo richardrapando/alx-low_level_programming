@@ -3,27 +3,22 @@
 /**
  * print_most_numbers - function that prints  numbers from 0 to 9 omitting 2 and 4
  *
- * @void: nothing
+ * Description: print numbers
  *
  * Return: void
  */
 
 void print_most_numbers(void)
 {
-	int c = '0';
+	int a = 0;
 
-	while (c <= '9')
+	while (a <= 9)
 	{
-		if (!(c == '2' || c == '4'))
+		if (a != 2 && a != 4)
 		{
-			_putchar(" ");
+			_putchar(a + '0');
 		}
-
-		else
-                {
-                        _putchar(c);
-                }
-		c++;
+		a++;
 	}
 	_putchar('\n');
 }
