@@ -10,15 +10,15 @@
 
 void print_most_numbers(void)
 {
-	int a = 0;
+	int z = 0;
 
 	while (a <= 9)
 	{
-		if (a != 2 && a != 4)
+		if (z != 2 && z != 4)
 		{
-			_putchar(a + '0');
+			_putchar(z + '0');
 		}
-		a++;
+		z++;
 	}
 	_putchar('\n');
 }
