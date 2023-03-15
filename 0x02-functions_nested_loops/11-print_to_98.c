@@ -4,11 +4,9 @@
 /**i
  * print_to_98 - function to print numbers from n to 98
  *
- * @n: maximum value\minimum value for which the function starts
+ * @n: number
  *
- * Description:printing from n to 98
- *
- * Return: void
+ * Return: numbers
  *
  */
 
