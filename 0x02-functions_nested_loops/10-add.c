@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * add - function to add two integers
- * @y: first int
- * @z: second int
- * Description: add two integers
+ * add - function that adds two integers
+ * @y: first integer
+ * @z: second integer
+ *
  * Return: sum
  *
  */
