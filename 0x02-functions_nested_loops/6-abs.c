@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _abs - function that gets the absolute value of an integer
- * @n: number is an integer
- * Description: printing the absolute value of an integer
+ * _abs - function that computes the absolute value of an integer.
+ * @n: integer
+ * 
  * Return: int n
  */
 
